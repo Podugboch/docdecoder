@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What does this say?</title>
+    <meta
+      name="description"
+      content="Photograph any bill, contract or official letter and get it back in plain words, with anything worth questioning pointed out."
+    />
+    <meta name="theme-color" content="#F4F5F2" />
+
+    <!-- Inline so there is no extra request and no 404 for /favicon.ico. -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2314213A'/><g fill='%23FCFCFA'><rect x='8' y='9' width='16' height='2.5' rx='1.25'/><rect x='8' y='15' width='16' height='2.5' rx='1.25'/><rect x='8' y='21' width='9' height='2.5' rx='1.25'/></g></svg>"
+    />
+
+    <!-- This link gets forwarded in WhatsApp, so the preview card is part of the
+         product. Add og:url and og:image (1200x630, absolute URL) once there is a
+         domain — without og:image the card still shows the title and this text. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="What does this say?" />
+    <meta
+      property="og:description"
+      content="Photograph a bill, contract or letter. Get it back in plain words, with anything worth questioning pointed out."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Tinos:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
